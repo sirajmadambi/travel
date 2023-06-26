@@ -1,0 +1,366 @@
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFC222 ;
+}
+
+ul,
+ol {
+  margin: 0; 
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;   
+}
+
+body {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: white;
+  text-shadow: 1px 0 6px #000000;
+}
+
+h1 span {
+  color: #FFC222;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color:  #00a149;
+  line-height: 3rem;
+}
+
+h4 {
+  color:  #00a149;
+  text-transform: capitalize;
+  font-size: 1.125rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  color: black;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  line-height: 1.5625rem;
+  background-color: #FFC222;
+  border: 0.1875rem solid #FFC222;
+  color: black;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+
+}
+.second-heading{
+  font-size: 25px;
+  color: white;
+  font-style: italic;
+}
+
+/* button hover */
+
+.main-btn:hover {
+  background-color: transparent; 
+  color: red;
+}
+
+.wrapper {
+  padding-top: 4.25rem;
+  padding-bottom: 4.25rem;
+}
+
+.text-content {
+  width: 70%;
+  margin: auto;
+}
+
+/* Header Design*/
+
+.icon-img{
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+.navigation-wrap{
+  position:fixed;
+  width:100%;
+  left:0;
+  z-index:9;
+}
+.navigation-wrap .nav-item{
+  padding:0 0.625rem;
+} 
+.nav-link{
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color:white;
+  letter-spacing:1px;
+}
+.nav-link:hover,
+.nav-link.active{
+  color:#FFC222;
+}
+.navigation-wrap .main-btn{
+  padding:0.3125rem 1.4375rem;
+  box-shadow: none;
+  margin-left:0.625rem;
+}
+
+/* Change navbar styling on scroll */
+
+.navigation-wrap.scroll-on{
+  position:fixed;
+  background-color: rgb(255, 255, 255);
+  top:0;
+  left:0;
+  width:100%;
+  box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+}
+.navigation-wrap.scroll-on .nav-link{
+  color: red;
+}
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active{
+  color:#FFC222;
+}
+
+/* top-banner Design */
+.top-banner{
+  width:100%;
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%),url(/bg-bg.jpg) no-repeat center;
+  background-size: cover;
+  padding:16.875rem 0 9.375rem;
+  background-position: bottom;
+}
+.top-banner p{
+  color:white;
+}
+
+/*  our-places Design*/
+
+.our-places .card{
+  border:none;
+}
+.place-img{
+  width: 130px;
+  height: 100px;
+  border-radius: 50px;
+}
+.place-img:hover{
+  border-radius: 25px;
+}
+.our-places .cat-title a{
+  text-align: center;
+  font-size: 0.8125rem;
+  position:relative;
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:black;
+}
+.card:hover .cat-title a{
+  color:#FFC222;
+}
+
+/* about section Design*/
+
+.about-section{
+  background:rgb(34, 33, 33);
+}
+.about-section .card,
+.about-section .card img{
+  border-radius: 0.625rem;
+}
+.about-section .text-sec{
+  padding-left:2rem;
+}
+ 
+/* travel type section Design*/
+
+.travel-type{
+  padding-top:3.25rem;
+}
+.travel-type ul li{
+  font-size: 1rem;
+  color:white;
+  line-height: 32px;
+  position:relative;
+  margin-left:30px;
+}
+.travel-type ul li::before{
+  position:absolute;
+  left:-2.1875rem;
+  color:#FFC222;
+  font-size: 1.25rem;
+  font-family: "Font Awesome 5 Free";
+  content:'\f00c';
+  display:inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+/* explore offer section Design*/
+
+.explore-offer .card{
+  border:none;
+  background-color:transparent;
+  border-radius: 0.9375rem;
+}
+.explore-offer .card img{
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+.explore-offer .card span{
+  display:block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color:#FFC222;
+  padding-bottom: 1rem;
+  border-bottom:0.0625rem solid #eee;
+}
+.explore-offer p{
+  color:white;
+  font-size: 14px;
+  line-height: 22px;
+}
+.offer-img{
+  height: 230px;
+}
+
+/* reviews section Design*/
+
+.reviews-section{
+  background: rgb(68, 40, 63);
+}
+.reviews-section h2{
+  color: white;
+}
+.reviews-section .carousel-item{
+  margin-top:3rem;
+  padding:10rem 3.125rem;
+  background-color: black;
+  border-radius: 0.9375rem;
+  text-align: center;
+}
+
+.reviews-section .carousel-caption img{
+  max-width: 5rem;
+  border-radius: 50%;
+  padding:0.3125rem;
+}
+.reviews-section .carousel-caption p{
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+  font-weight: 300;
+  color:white;
+  padding:0 11% 0.625rem;
+}
+.reviews-section .carousel-indicators{
+  bottom:-2.8125rem;
+}
+.reviews-section .carousel-indicators button{
+  width:15px;
+  height:15px;
+  outline:none;
+  border-radius: 50%;
+  border: none;
+  margin-right:1rem;
+  opacity:0.2;
+}
+.reviews-section .carousel-indicators button.active{
+  opacity:1;
+}
+
+/*footer section Design*/
+
+.footer{
+  background: black;
+} 
+.footer .footer-social a i{
+  font-size: 1.5rem;
+  color:white;
+  padding:0 1rem;
+}
+.footer .footer-social a:hover i{
+  color:#FFC222;
+}
+ 
+
+/* Form Control */
+
+.newsletter .form-control{
+  height:3.225rem;
+  padding:0 1.25rem;
+  font-size: 0.875rem;
+  width:100%;
+  border-radius: 0;
+  background:transparent;
+  border:0.1875rem solid white;
+  color:black;
+  font-weight: 700;
+}
+.newsletter .main-btn{
+  height:3.225rem;
+  padding:0 1.25rem;
+  font-size: 0.875rem;
+  border-radius: 0;
+  background-color: white;
+  border:0.1875rem solid white;
+  color:black;
+  font-weight: 700;
+}
+.newsletter:hover .form-control{
+  border:0.1875rem solid #FFC222;
+  color:black;
+}
+.newsletter:hover .main-btn{
+ background:#FFC222; 
+ border:0.1875rem solid #FFC222;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+  outline:none;
+  box-shadow: none;
+  border-color:#FFC222;
+}
+.quote-col{
+  line-height: 50px;
+  letter-spacing: -.5;
+  font-weight: bold;
+  color: #eee;
+}
+
+
+
+      
