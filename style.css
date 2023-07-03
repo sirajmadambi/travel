@@ -157,7 +157,7 @@ p {
 /* top-banner Design */
 .top-banner{
   width:100%;
-  background: linear-gradient(to top, rgb(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%),url(/bg-bg.jpg) no-repeat center;
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.6)50%,rgba(0, 0, 0, 0.6)50%),url(bg-bg.jpg) no-repeat center;
   background-size: cover;
   padding:16.875rem 0 9.375rem;
   background-position: bottom;
